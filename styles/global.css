@@ -1,0 +1,13 @@
+.wrapper {
+  direction: rtl;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.inputstyle{
+    margin-top: 100px;
+    padding: 12px 10px;
+    font-size: 20px;
+    margin-bottom: 100px
+}
