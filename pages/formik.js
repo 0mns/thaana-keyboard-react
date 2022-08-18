@@ -1,5 +1,6 @@
 import { Formik, Form } from "formik";
 import Link from "next/link";
+
 import { thaanaKeyboard } from "../utils/thaanaKeyboard";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <div>
         <h1>Formik Test</h1>
         <p>thaana keyboard react</p>
+        
         <Formik
           initialValues={{
             name: "",

@@ -1,5 +1,8 @@
 import { useState } from "react";
+import Link from "next/link";
+
 import { thaanaKeyboard } from "../utils/thaanaKeyboard";
+
 export default function Home() {
   const [name, setName] = useState("");
 
@@ -14,7 +17,7 @@ export default function Home() {
         placeholder="ހެލޯ ދުނިޔެ"
       />
       <br />
-      <a href='/formik'>Formik</a>| 
+      <Link href='/formik'>Formik</Link>| 
       <a href='https://github.com/0mns/thaana-keyboard-react'>GitHub</a>
     </div>
   );
