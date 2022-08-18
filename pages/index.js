@@ -14,7 +14,7 @@ export default function Home() {
         placeholder="ހެލޯ ދުނިޔެ"
       />
       <br />
-
+      <a href='/formik'>Formik</a>| 
       <a href='https://github.com/0mns/thaana-keyboard-react'>GitHub</a>
     </div>
   );
