@@ -1,4 +1,5 @@
 import { Formik, Form } from "formik";
+import Link from "next/link";
 import { thaanaKeyboard } from "../utils/thaanaKeyboard";
 
 export default function Home() {
@@ -33,7 +34,7 @@ export default function Home() {
           )}
         </Formik>
 
-        <a href='/'>Basic</a>|
+        <Link href='/'>Basic</Link>|
         <a href='https://github.com/0mns/thaana-keyboard-react'>GitHub</a>
       </div>
     </div>
