@@ -67,9 +67,7 @@ const keyMap = {
 export const thaanaKeyboard = (value) => {
   let dvVals = [];
   value.split("").map((v) => {
-    v === " " && dvVals.push(" ");
-    keyMap[v] && dvVals.push(keyMap[v]);
-    Object.values(keyMap).includes(v) && dvVals.push(v);
+    keyMap[v] ? dvVals.push(keyMap[v]) : dvVals.push(v);
   });
   return dvVals.join("");
 };
